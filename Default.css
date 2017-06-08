@@ -34,7 +34,7 @@ body {
 }
 .indent {
     left: 24px;
-    background: #515151;
+    background: transparent;
 }
 .mainsection {
     position: fixed;
@@ -56,10 +56,15 @@ body {
     color: #FFFF00;
 }
 .blue > div {
-    position: fixed;
+    font-size: 1vmax !important;
+    position: absolute;
     bottom: 2%;
     z-index: 1;
 }
+.blue > div a:link {
+    font-size: 1vmax !important;
+}
+
 .btn-info {
     position: relative;
     color: #fff;
